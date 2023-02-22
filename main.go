@@ -1,7 +1,10 @@
 package main
 
-import "go-patterns/factory"
+import (
+	"go-patterns/builder"
+)
 
 func main() {
-	factory.Output()
+	// factory.Output()
+	builder.Output()
 }
